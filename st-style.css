@@ -1,7 +1,32 @@
-nav.st-nav {
- background-color: #b4b4b4;
+nav.st-nav,
+.nav-container {
+    background-color: #17191C;
 }
 
 body.home-body {
+    background-color: #F2F7FF;
+}
 
+.case-study-cards {
+    background-color: #DEE0EA;
+    border: 0;
+    border-radius: 0;
+}
+
+.st-brand-font {
+    font-family: 'Norican', cursive;
+    font-size: 1.5rem;
+}
+
+p,
+a,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
