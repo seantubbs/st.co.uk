@@ -1,10 +1,14 @@
-nav.st-nav,
-.nav-container {
+/*COLORS*/
+
+nav.st-nav {
     background-color: #17191C;
+    padding: 0;
+    margin: 0;
 }
 
 body.home-body {
     background-color: #F2F7FF;
+    padding-top: 48px;
 }
 
 .case-study-cards {
@@ -13,9 +17,21 @@ body.home-body {
     border-radius: 0;
 }
 
-.st-brand-font {
+hr.hr-size {
+    border-color: #DEE0EA;
+    background-color: #DEE0EA;
+    height: 2px;
+}
+
+/*FONTS*/
+
+.st-nav-font {
     font-family: 'Norican', cursive;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    font-weight: lighter;
 }
 
 p,
@@ -28,5 +44,32 @@ h4,
 h5,
 h6 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    color: #17191C;
+}
+
+p,
+a,
+li {
+    font-weight: lighter;
+}
+
+a.st-card-link {
+    text-align: right;
+    display: block;
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+/*PADDING*/
+
+.header-top-pad {
+    padding-top: 30px;
+}
+
+.header-bottom-pad {
+    padding-bottom: 20px;
+}
+
+hr.hr-top-pad {
+    margin-top: 30px;
 }
