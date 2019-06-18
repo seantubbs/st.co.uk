@@ -1,14 +1,35 @@
 /*COLORS*/
 
+/*
+BLACK       #23262B
+LIGHT GREY  #F2F7FF
+GREY        #DEE0EA
+GREEN       #2C4F39
+PURPLE      #44304C
+*/
+
 nav.st-nav {
-    background-color: #17191C;
+    background-color: #23262B;
     padding: 0;
     margin: 0;
 }
 
+nav.st-breadcrumb {
+    margin-top: 48px;
+}
+
+nav ol.st-breadcrumb-ol {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 15px;
+    margin: 0;
+    border-radius: 0;
+    background-color: #DEE0EA;
+}
+
 body.home-body {
     background-color: #F2F7FF;
-    padding-top: 48px;
+    padding-top: 75px;
 }
 
 .case-study-cards {
@@ -20,7 +41,7 @@ body.home-body {
 hr.hr-size {
     border-color: #DEE0EA;
     background-color: #DEE0EA;
-    height: 2px;
+    height: 1px;
 }
 
 /*FONTS*/
@@ -29,6 +50,24 @@ hr.hr-size {
     font-family: 'Norican', cursive;
     font-size: 2rem;
     color: #ffffff;
+    padding: 0;
+    margin: 0;
+    font-weight: lighter;
+}
+
+.st-bread-active {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+    color: #6c757d;
+    padding: 0;
+    margin: 0;
+    font-weight: lighter;
+}
+
+.st-bread-inactive {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+    color: #6c757d;
     padding: 0;
     margin: 0;
     font-weight: lighter;
@@ -60,6 +99,16 @@ a.st-card-link {
     font-size: 0.9rem;
 }
 
+div p.p-more {
+    padding-top: 10px;
+    text-align: right;
+}
+
+a:hover {
+    color: #44304C;
+    text-decoration-line: none;
+}
+
 /*PADDING*/
 
 .header-top-pad {
@@ -71,5 +120,5 @@ a.st-card-link {
 }
 
 hr.hr-top-pad {
-    margin-top: 30px;
+    margin-top: 20px;
 }
