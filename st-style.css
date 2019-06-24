@@ -14,6 +14,15 @@ nav.st-nav {
     margin: 0;
 }
 
+nav.st-nav2 {
+    background-color: #23262B;
+    padding-left: 17px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin: 0;
+}
+
 nav.st-breadcrumb {
     margin-top: 48px;
 }
@@ -55,9 +64,13 @@ hr.hr-size {
     font-weight: lighter;
 }
 
-.st-nav-font:hover,
-.st-nav-font:active {
+.st-nav-font:hover {
     color: #ffffff;
+    text-decoration-line: none;
+}
+
+.st-nav-font:active {
+    color: #F2F7FF;
     text-decoration-line: none;
 }
 
@@ -127,4 +140,12 @@ a:hover {
 
 hr.hr-top-pad {
     margin-top: 20px;
+}
+
+/*IMAGE SIZING*/
+
+img.nav-logos {
+    width: 30px;
+    display: block;
+    margin: 5px;
 }
