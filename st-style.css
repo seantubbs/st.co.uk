@@ -55,6 +55,12 @@ hr.hr-size {
     font-weight: lighter;
 }
 
+.st-nav-font:hover,
+.st-nav-font:active {
+    color: #ffffff;
+    text-decoration-line: none;
+}
+
 .st-bread-active {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.8rem;
