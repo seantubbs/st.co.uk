@@ -47,12 +47,19 @@ hr.hr-size {
 /*FONTS*/
 
 .st-nav-font {
-    font-family: 'Norican', cursive;
+    font-family: 'Norican',
+        cursive;
     font-size: 2rem;
     color: #ffffff;
     padding: 0;
     margin: 0;
     font-weight: lighter;
+}
+
+.st-nav-font:hover,
+.st-nav-font:active {
+    color: #ffffff;
+    text-decoration-line: none;
 }
 
 .st-bread-active {
