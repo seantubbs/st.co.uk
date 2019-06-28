@@ -45,12 +45,17 @@ body.home-body {
     background-color: #DEE0EA;
     border: 0;
     border-radius: 0;
+    margin-top: 15px;
 }
 
 hr.hr-size {
     border-color: #DEE0EA;
     background-color: #DEE0EA;
     height: 1px;
+}
+
+button span.st-navbar-icon {
+    color: #ffffff;
 }
 
 /*FONTS*/
@@ -118,9 +123,16 @@ a.st-card-link {
     font-size: 0.9rem;
 }
 
-div p.p-more {
+div p.p-more-right {
     padding-top: 10px;
     text-align: right;
+}
+
+div p.p-more-left {
+    padding-top: 0px;
+    text-align: left;
+    margin: 5px;
+    color: #44304C;
 }
 
 a:hover {
@@ -148,4 +160,13 @@ img.nav-logos {
     width: 30px;
     display: block;
     margin: 5px;
+}
+
+/*MOBILE SMALL (.col-sm)*/
+
+@media screen and (max-width: 540px) {
+
+div.col-md-4 {
+    padding-left: 0px;  
+    padding-right: 0px;
 }

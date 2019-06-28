@@ -18,28 +18,31 @@
 
     <!--Navbar-->
 
-    <!--    <nav class="navbar justify-content-center fixed-top st-nav">-->
-    <nav class="navbar fixed-top st-nav2">
+    <nav class="navbar navbar-expand-md fixed-top st-nav2">
         <a class="navbar-brand st-nav-font" href="/">seantubbs</a>
 
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a href="https://www.twitter.com/digitubbs/" target="_blank"><img src="assets/twitter-white-circle.png" class="nav-logos"></a>
-            </li>
-            <li class="nav-item">
-                <a href="http://uk.linkedin.com/in/seantubbs" target="_blank"><img src="assets/linkedin-white-circle.png" class="nav-logos"></a>
-            </li>
-            <li class="nav-item">
-                <a href="https://medium.com/@DigiTubbs" target="_blank"><img src="assets/medium-white-circle.png" class="nav-logos"></a>
-            </li>
-            <li class="nav-item">
-                <a href="https://www.github.com/seantubbs" target="_blank"><img src="assets/github-white-circle.png" class="nav-logos"></a>
-            </li>
-            <li class="nav-item">
-                <a href="mailto:sean@tubbs.io?Subject=Web Enquiry" target="_top"><img src="assets/email-white-circle.png" class="nav-logos"></a>
-            </li>
-        </ul>
-
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon st-navbar-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a href="https://www.twitter.com/digitubbs/" target="_blank"><img src="assets/twitter-white-circle.png" class="nav-logos"></a>
+                </li>
+                <li class="nav-item">
+                    <a href="http://uk.linkedin.com/in/seantubbs" target="_blank"><img src="assets/linkedin-white-circle.png" class="nav-logos"></a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://medium.com/@DigiTubbs" target="_blank"><img src="assets/medium-white-circle.png" class="nav-logos"></a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.github.com/seantubbs" target="_blank"><img src="assets/github-white-circle.png" class="nav-logos"></a>
+                </li>
+                <li class="nav-item">
+                    <a href="mailto:sean@tubbs.io?Subject=Web Enquiry" target="_top"><img src="assets/email-white-circle.png" class="nav-logos"></a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
     <!--    Breadcrumb-->
@@ -48,7 +51,7 @@
         <ol class="breadcrumb st-breadcrumb-ol">
             <li class="breadcrumb-item st-bread-inactive"><a class="st-bread-inactive" href="#">Home</a></li>
             <li class="breadcrumb-item st-bread-inactive"><a class="st-bread-inactive" href="#">My Work</a></li>
-            <li class="breadcrumb-item active st-bread-active" aria-current="page">Department of Work & Pensions</li>
+            <li class="breadcrumb-item active st-bread-active" aria-current="page">Adur & Worthing Councils</li>
         </ol>
     </nav>
 
@@ -59,14 +62,14 @@
         <!--Bio-->
 
         <div class="row">
-            <div class="col-12">
+            <div class="col-lg-8">
 
                 <h1 class="header-top-pad">About me</h1>
 
                 <p>Lorem ipsum dolor amet cold-pressed chartreuse shoreditch farm-to-table yr tattooed. Intelligentsia PBR&B disrupt blog, craft beer before they sold out mixtape pickled bespoke actually semiotics banh mi. Pop-up vape ethical marfa irony man bun vexillologist paleo post-ironic prism. Jean shorts health goth four dollar toast chartreuse, la croix forage sustainable sartorial messenger bag truffaut bitters.</p>
 
                 <a href="#">
-                    <p class="p-more">+ read more</p>
+                    <p class="p-more-left">+ read more</p>
                 </a>
             </div>
         </div>
@@ -77,37 +80,40 @@
         <div class="row">
 
             <div class="col-12">
-                <h2 class="header-bottom-pad">My work</h2>
+                <h2>My work</h2>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-4">
+            <div class="col-md-4">
                 <div class="card case-study-cards">
+                    <img src="assets/aw-cs-pic.png" class="card-img-top" alt="A&W">
                     <div class="card-body">
-                        <h5 class="card-title">Client name</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Project title</h6>
-                        <p class="card-text">A breif description of what I did for that client. A few words and stuff to cover the main points.</p>
+                        <h5 class="card-title">The Low-Code Council</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Adur & Worthing Councils</h6>
+                        <p class="card-text">A pioneering combination of a world-leading CRM and emerging low-code tech to create a flexible, citizen-focussed development platform.</p>
                         <a href="#" class="card-link st-card-link">+ read more</a>
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-md-4">
                 <div class="card case-study-cards">
+                    <img src="assets/aw-cs-pic.png" class="card-img-top" alt="test">
                     <div class="card-body">
-                        <h5 class="card-title">Client name</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Project title</h6>
-                        <p class="card-text">A breif description of what I did for that client. A few words and stuff to cover the main points.</p>
+                        <h5 class="card-title">Mapping the Monolith</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Department of Work & Pensions</h6>
+                        <p class="card-text">Creating a map of user needs across 26 services to their business capability needs and underlying technologies & data.</p>
                         <a href="#" class="card-link st-card-link">+ read more</a>
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-md-4">
                 <div class="card case-study-cards">
+                    <img src="assets/aw-cs-pic.png" class="card-img-top" alt="test">
                     <div class="card-body">
-                        <h5 class="card-title">Client name</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Project title</h6>
-                        <p class="card-text">A breif description of what I did for that client. A few words and stuff to cover the main points.</p>
+                        <h5 class="card-title">Automated Land Services</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Registers of Scotland</h6>
+                        <p class="card-text">The first end-to-end, automated digital service on the Scottish Land Register, with exceptions seemlessly falling out into a modern case management system for manual intervention.</p>
                         <a href="#" class="card-link st-card-link">+ read more</a>
                     </div>
                 </div>
@@ -117,7 +123,7 @@
         <div class="row">
             <div class="col-12">
                 <a href="#">
-                    <p class="p-more">
+                    <p class="p-more-right">
                         + read more</p>
                 </a>
                 <hr class="hr-size hr-top-pad">
@@ -130,6 +136,4 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
-</body>
-
-</html>
+</body></html>
